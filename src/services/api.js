@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASEURL = "http://fakestoreapi.com" ;
+const BASEURL = "https://fakestoreapi.com" ;
 axios.defaults.baseURL = BASEURL ; 
 
 const getProducts = async() => {
